@@ -35,7 +35,7 @@ Map.prototype.cast = function(point, angle, range) {
     return {
       x: inverted ? y + dy : x + dx,
       y: inverted ? x + dx : y + dy,
-      length2: dx * dx + dy * dy;
+      length2: dx * dx + dy * dy
     }
   }
 }
